@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+.hero {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero span {
+    font-weight: bold;
+    color: black;
+}
+
+.navbar {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #FFD700;
+}
+ul {
+            list-style-type: none; /* Remove bullets */
+            padding: 0;
+            margin: 0;
+            text-align: center; 
+        }
+        li {
+            margin: 10px 0;
+        }
+.section {
+    padding: 50px 20px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project-card:hover {
+    background-color: grey;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Hello, I'm <span>JEFFINA J</span></h1>
+        <p>Student at KalaignarKarunanidhi Institute of Technology /
+            B.Tech Artificial Intelligence and Data Science
+        </p>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am studying 3rd year Artificial Intelligence and Data Science at KalaignarKarunanidhi Institute of Technology. </p>
+        <ul>
+            <li> I am good at Python, C, Html, CSS, Java and also good to create a simple front - end page.</li>
+            <li>Regularly I am interested to solve problem in online platform.</li>
+            <li>I enjoy learning new technologies and improving my skills.</li>
+            <li>I aren't good at leadership but I will give my full efforts in team work. </li>
+        </ul>  
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Project 1: SMS Phishing using Python</h3>
+                <p>SMS Phishing is implemented to detect the fradulant messages (keywords messages) using Python.</p>
+                <a href="https://github.com/jeffinaj/sms-phishing" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: Movie Recommendation - frontend</h3>
+                <p>A responsive portfolio website built with HTML and CSS</p>
+                <a href="https://github.com/jeffinaj/Movie-Recommendation" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3: Portfolio Website - frontend</h3>
+                <p>A responsive portfolio website built with HTML and CSS</p>
+                <a href="https://github.com/jeffinaj/portfolio" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: jeffinaj854@gmail.com</p>
+        <p>Phone: +91 9940974581</p>
+        <p>Codechef: <a href="https://www.codechef.com/dashboard" target="_blank">codechef.com/jeffinaj</a></p>
+        <p>Leetcode: <a href="https://leetcode.com/u/jeffinaj/" target="_blank">leetcode.com/jeffinaj</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/jeffina-j-291422265" target="_blank">linkedin.com/in/jeffinaj</a></p>
+        <p>GitHub: <a href="https://github.com/jeffinaj" target="_blank">github.com/jeffinaj</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jeffina J. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
